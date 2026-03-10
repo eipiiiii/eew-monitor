@@ -70,8 +70,6 @@ async def monitor():
                             print("地震情報（震度1以上）受信(551):", data)
                             launch_app_with_debounce("地震情報(551, 震度1以上)")
 
-                    # 552(津波予報)は今回はトリガーにしないので elif は書かない
-
         except Exception as e:
             print("エラー:", e)
             print("5秒後に再接続します")

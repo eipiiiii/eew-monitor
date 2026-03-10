@@ -1,1 +1,6 @@
 /.venv
+eew_monitor.err.log
+eew_monitor.out.log
+stdout.log
+stderr.log
+com.user.eew-monitor.plist
